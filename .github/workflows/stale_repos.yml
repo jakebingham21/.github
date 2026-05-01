@@ -1,0 +1,19 @@
+name: Stale Repos
+
+on:
+  schedule:
+    - cron: "30 1 1 * *"  # 01:30 UTC on 1st of every month
+  workflow_dispatch:       # allow manual trigger for first-run test
+
+permissions:
+  issues: write
+
+jobs:
+  stale_repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: github-community-projects/stale-repos@v9
+        env:
+          GITHUB_TOKEN: ${{ secrets.STALE_REPOS_TOKEN }}
+          INACTIVE_DAYS: "365"
+          EXEMPT_TOPICS: "keep,template"
