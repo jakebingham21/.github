@@ -8,7 +8,6 @@ Operator. Building [ORCA](https://github.com/jakebingham21/lab-orca) - a multi-a
 | Repo | Purpose |
 |---|---|
 | [lab-orca](https://github.com/jakebingham21/lab-orca) | ORCA multi-agent orchestrator (in probe) |
-| [llm-council](https://github.com/jakebingham21/llm-council) | Multi-provider LLM council MCP server |
 | [snake-skills](https://github.com/jakebingham21/snake-skills) | Claude Code agent skills collection |
 
 ### Automation
@@ -20,7 +19,6 @@ Operator. Building [ORCA](https://github.com/jakebingham21/lab-orca) - a multi-a
 | Repo | Purpose |
 |---|---|
 | [snake-infra](https://github.com/jakebingham21/snake-infra) | Docker/VPS infrastructure |
-| [ccflare](https://github.com/jakebingham21/ccflare) | Cloudflare proxy fork |
 
 ### Workstation
 | Repo | Purpose |
@@ -31,4 +29,4 @@ Operator. Building [ORCA](https://github.com/jakebingham21/lab-orca) - a multi-a
 
 ---
 
-5 repos archived. Governed by the [stale-repos action](https://github.com/jakebingham21/.github/blob/main/.github/workflows/stale_repos.yml).
+Most repos private.
